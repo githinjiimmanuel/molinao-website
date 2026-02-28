@@ -1,0 +1,131 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ed;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #6b3e26;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 22px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #c4a484;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Products Grid */
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Grid Layout */
+#products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    background-color: #6b3e26;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4e2d1c;
+}
+
+/* Footer */
+footer {
+    background-color: #6b3e26;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* -------- MOBILE NAV FIX -------- */
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .product img {
+        height: 180px;
+    }
+}
