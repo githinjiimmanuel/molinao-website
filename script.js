@@ -5,4 +5,9 @@ function orderNow() {
 function showMessage() {
     document.getElementById("message").innerHTML =
         "Thank you for contacting Molinao Kenya Coffee Shop! We will respond shortly.";
+
+}
+
+function orderNow() {
+    window.open("https://wa.me/254743169485", "_blank");
 }
