@@ -162,3 +162,19 @@ footer {
     }
 }
 }
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 30px;
+    background: #c4a484;
+    color: #4e2d1c;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #a67c52;
+    transform: scale(1.05);
+}
