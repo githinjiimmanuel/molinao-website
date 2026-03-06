@@ -10,3 +10,10 @@ function showMessage() {
 function orderNow() {
     window.open("https://wa.me/254743169485", "_blank");
 }
+
+const toggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".nav-links");
+
+toggle.onclick = () => {
+nav.classList.toggle("active");
+}
