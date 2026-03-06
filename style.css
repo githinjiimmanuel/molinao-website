@@ -290,5 +290,36 @@ footer {
   max-width: 900px;
 }
 
+.menu-toggle{
+display:none;
+font-size:28px;
+background:none;
+border:none;
+color:white;
+}
+
+@media (max-width:768px){
+
+.nav-links{
+display:none;
+flex-direction:column;
+background:#4e2d1c;
+position:absolute;
+top:70px;
+right:0;
+width:200px;
+}
+
+.nav-links.active{
+display:flex;
+}
+
+.menu-toggle{
+display:block;
+}
+
+}
+
+
 
 
