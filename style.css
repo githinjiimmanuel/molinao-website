@@ -284,3 +284,14 @@ footer {
   transform: scale(2.1);
 }
 
+.map {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.map iframe {
+  border-radius: 10px;
+  max-width: 900px;
+}
+
+
