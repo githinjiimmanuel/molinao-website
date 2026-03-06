@@ -273,17 +273,13 @@ footer {
 }
 
 .product-card img {
-    width: 180px;
-    height: 180px;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto 15px;
+  width: 200px;
+  height: auto;
 }
 
 .product-card img:hover {
-  transform: scale(2.1);
+  transform: scale(1.4);
 }
-
 .map {
   margin-top: 40px;
   text-align: center;
@@ -293,5 +289,6 @@ footer {
   border-radius: 10px;
   max-width: 900px;
 }
+
 
 
