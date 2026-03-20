@@ -49,8 +49,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(116, 48, 48, 0.55), rgba(110, 58, 58, 0.55)),
-                url("C:\Users\immanuel\Desktop\coffee\images\front-view-brown-coffee-seeds-with-choco-bars-cup-coffee-all-brown-surface-coffee-seed-grain-granule.jpg") center/cover no-repeat;
+    background: background: saddlebrown;
     height: 90vh;
     display: flex;
     justify-content: center;
