@@ -222,10 +222,17 @@ footer {
 }
 
 .social-icons a {
-    display: inline-block;
-    margin: 0 15px;
-    font-size: 28px;
-    color: #4e2d1c;
+    font-size: 35px;
+    margin: 0 12px;
+    color: white;
+    background: #5c3a21;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
     transition: 0.3s ease;
 }
 
