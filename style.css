@@ -286,7 +286,7 @@ footer {
 }
 
 .product-card img:hover {
-  transform: scale(1.4);
+  transform: scale(2.0);
 }
 
 .map {
