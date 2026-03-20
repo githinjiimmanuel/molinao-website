@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.home {
+  background-color: #5c3a21;
+  color: brown;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f8f5f2;
@@ -43,7 +48,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    background: linear-gradient(rgba(116, 48, 48, 0.55), rgba(110, 58, 58, 0.55)),
                 url("C:\Users\immanuel\Desktop\coffee\images\front-view-brown-coffee-seeds-with-choco-bars-cup-coffee-all-brown-surface-coffee-seed-grain-granule.jpg") center/cover no-repeat;
     height: 90vh;
     display: flex;
@@ -56,12 +61,14 @@ nav a:hover {
 
 .hero-content {
     max-width: 700px;
+    color: white;
 }
 
 .hero h2 {
     font-size: 42px;
     margin-bottom: 15px;
     font-weight: 700;
+    color: white;
 }
 
 .hero p {
@@ -140,10 +147,11 @@ section h2 {
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    background: sandybrown;
 }
 
 .product-card {
-    background: white;
+    background: saddlebrown;
     width: 260px;
     padding: 25px;
     border-radius: 15px;
@@ -274,12 +282,13 @@ footer {
 
 .product-card img {
   width: 200px;
-  height: auto;
+  height: 250px;
 }
 
 .product-card img:hover {
   transform: scale(1.4);
 }
+
 .map {
   margin-top: 40px;
   text-align: center;
@@ -318,8 +327,32 @@ display:flex;
 display:block;
 }
 
+body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 90%;
+  }
+
+
 }
 
-
-
-
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
