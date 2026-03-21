@@ -222,10 +222,10 @@ footer {
 }
 
 .social-icons a {
-    font-size: 55px;
-    margin: 0 12px;
+    font-size: 50px;
     text-decoration: none;   /* removes underline */
     line-height: 1;          /* removes extra line space */
+    margin: 0 12px;
     color: white;
     background: #5c3a21;
     padding: 15px;
@@ -305,8 +305,8 @@ footer {
 }
 
 .map iframe {
-width: 100%;
-height: 300px;
+  width: 100%;
+  height: 300px;
 }
 
 .menu-toggle{
@@ -426,3 +426,8 @@ html, body {
 footer {
     margin-top: 0;   /* remove extra gap */
 }
+.social-icons a:nth-child(1) {background: #25D366;}
+.social-icons a:nth-child(2) { background: #1877f2; } /* Facebook */
+.social-icons a:nth-child(3) { background: #e4405f; } /* Instagram */
+.social-icons a:nth-child(4) { background: #000000; } /* TikTok */
+.social-icons a:nth-child(5) { background: #000000; } /* X */
