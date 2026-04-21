@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 .home {
   background-color: #5c3a21;
   color: saddlebrown;
@@ -114,7 +116,7 @@ button:hover {
 
 /* Sections */
 section {
-    padding: 40px 20px;
+    padding: 70px 10%;
     text-align: center;
 }
 
@@ -423,9 +425,15 @@ html, body {
     height: 100%;
 }
 
-footer {
-    margin-top: 0;   /* remove extra gap */
+body {
+    display: flex;
+    flex-direction: column;
 }
+
+footer {
+    margin-top: auto;
+}
+
 .social-icons a:nth-child(1) {background: #25D366;}
 .social-icons a:nth-child(2) { background: #1877f2; } /* Facebook */
 .social-icons a:nth-child(3) { background: #e4405f; } /* Instagram */
