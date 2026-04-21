@@ -220,26 +220,23 @@ footer {
 }
 
 .social-icons {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .social-icons a {
-    font-size: 50px;
-    text-decoration: none;   /* removes underline */
-    line-height: 1;          /* removes extra line space */
-    margin: 0 12px;
+    font-size: 28px;     /* controls icon size */
+    width: 70px;         /* circle size */
+    height: 70px;
+    margin: 0 10px;
     color: white;
-    background: #5c3a21;
     padding: 15px;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    text-decoration: none;
     transition: 0.3s ease;
 }
-
 .social-icons a:hover {
     color: #c4a484;
     transform: scale(1.2);
